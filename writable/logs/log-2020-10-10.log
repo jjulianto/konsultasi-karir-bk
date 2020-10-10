@@ -1,0 +1,11 @@
+CRITICAL - 2020-10-10 09:15:47 --> syntax error, unexpected '}', expecting ';'
+#0 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Sekolah\\Prod...')
+#1 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('D:\\Sekolah\\Prod...')
+#9 {main}
