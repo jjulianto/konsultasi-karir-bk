@@ -1,0 +1,12 @@
+CRITICAL - 2020-10-15 04:51:32 --> Undefined variable: title
+#0 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\app\Views\layout\template.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Sekolah\\Prod...', 18, Array)
+#1 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\View\View.php(246): include('D:\\Sekolah\\Prod...')
+#2 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\View\View.php(257): CodeIgniter\View\View->render('layout/template', Array, true)
+#3 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\Common.php(1119): CodeIgniter\View\View->render('login/login', Array, true)
+#4 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\app\Controllers\Home.php(17): view('login/login')
+#5 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(918): App\Controllers\Home->login()
+#6 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('D:\\Sekolah\\Prod...')
+#10 {main}

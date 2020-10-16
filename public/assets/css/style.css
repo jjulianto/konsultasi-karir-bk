@@ -12,6 +12,9 @@ html {
     box-sizing: border-box;
 }
 
+
+/* Landing Page */
+
 .page {
     width: 100%;
     min-height: 100vh;
@@ -39,4 +42,60 @@ html {
 
 .page-1 {
     padding-top: 80px;
+}
+
+
+/* Login Page */
+
+.overlay-white {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+}
+
+.wrapper-form {
+    width: 35%;
+    height: 350px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.form {
+    padding: 0px 40px;
+}
+
+.input-icon {
+    display: flex;
+}
+
+.icon {
+    padding: 10px;
+    background: rgb(4, 121, 255);
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.circle-wrapper {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.circle-wrapper .circle-image {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    margin: auto;
+    margin-top: -50px;
+    text-align: center;
 }
