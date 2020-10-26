@@ -4,22 +4,22 @@ namespace App\Controllers;
 
 class Login extends BaseController
 {
-    public function guru()
+	public function guru()
 	{
 		$data = [
 			'title' => 'Guru | Login'
 		];
-		return view('login/guru-login', $data);
-    }
+		return view('guru/guru-login', $data);
+	}
 
-    public function siswa()
+	public function siswa()
 	{
 		$data = [
 			'title' => 'Siswa | Login'
 		];
-		return view('login/siswa-login', $data);
-    }
+		return view('siswa/siswa-login', $data);
+	}
 
-    //--------------------------------------------------------------------
-        
+	//--------------------------------------------------------------------
+
 }

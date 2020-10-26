@@ -1,0 +1,24 @@
+CRITICAL - 2020-10-17 07:49:57 --> Invalid file: template.php
+#0 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\View\View.php(257): CodeIgniter\View\View->render('template', Array, true)
+#2 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\View\View.php(257): CodeIgniter\View\View->render('layout/login', Array, true)
+#3 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\Common.php(1119): CodeIgniter\View\View->render('login/siswa-log...', Array, true)
+#4 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\app\Controllers\Login.php(20): view('login/siswa-log...', Array)
+#5 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(918): App\Controllers\Login->siswa()
+#6 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('D:\\Sekolah\\Prod...')
+#10 {main}
+CRITICAL - 2020-10-17 07:50:11 --> Invalid file: ./template.php
+#0 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./template.php')
+#1 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\View\View.php(257): CodeIgniter\View\View->render('./template', Array, true)
+#2 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\View\View.php(257): CodeIgniter\View\View->render('layout/login', Array, true)
+#3 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\Common.php(1119): CodeIgniter\View\View->render('login/siswa-log...', Array, true)
+#4 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\app\Controllers\Login.php(20): view('login/siswa-log...', Array)
+#5 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(918): App\Controllers\Login->siswa()
+#6 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Sekolah\Produktif\Project Work\Project\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('D:\\Sekolah\\Prod...')
+#10 {main}

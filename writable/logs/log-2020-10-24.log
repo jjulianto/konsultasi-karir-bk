@@ -1,0 +1,22 @@
+CRITICAL - 2020-10-24 23:22:13 --> Invalid file: layout/template.php
+#0 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\View\View.php(257): CodeIgniter\View\View->render('layout/template', Array, true)
+#2 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\Common.php(1119): CodeIgniter\View\View->render('landing-page/in...', Array, true)
+#3 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\app\Controllers\Home.php(12): view('landing-page/in...', Array)
+#4 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('D:\\Sekolah\\Tuga...')
+#9 {main}
+CRITICAL - 2020-10-24 23:27:41 --> Invalid file: layout/template.php
+#0 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\View\View.php(257): CodeIgniter\View\View->render('layout/template', Array, true)
+#2 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\Common.php(1119): CodeIgniter\View\View->render('landing-page/in...', Array, true)
+#3 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\app\Controllers\Home.php(12): view('landing-page/in...', Array)
+#4 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('D:\\Sekolah\\Tuga...')
+#9 {main}
