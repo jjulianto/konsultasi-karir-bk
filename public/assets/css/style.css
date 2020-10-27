@@ -1,15 +1,37 @@
 body {
     padding: 0;
     margin: 0;
-    overflow-x: hidden;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-* {
-    box-sizing: border-box;
+
+/* FONT IMPORT */
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 400;
+    src: local('Poppins Regular'), url('./../fonts/poppins-v13-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 700;
+    src: local('Poppins Bold'), url('./../fonts/poppins-v13-latin-700.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-weight: 400;
+    src: local('Quicksand Regular'), url('./../fonts/quicksand-v21-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-weight: 700;
+    src: local('Quicksand Bold'), url('./../fonts/quicksand-v21-latin-700.woff') format('woff');
 }
 
 
@@ -21,27 +43,104 @@ html {
 }
 
 .navbar {
-    background-color: rgb(4, 121, 255);
-    padding: 5px;
+    padding: 25px 50px;
 }
 
 .navbar .navbar-brand {
-    font-size: 20px;
-    color: #fff;
+    font-size: 30px;
+    color: rgb(16, 82, 158);
     font-weight: 700;
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: #fff;
+    color: rgb(16, 82, 158);
     font-weight: 700;
+    font-family: "Quicksand", sans-serif;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
+    color: rgb(16, 82, 158);
 }
 
 .page-1 {
-    padding-top: 80px;
+    padding-top: 60px;
+}
+
+.text-one {
+    color: rgb(16, 82, 158);
+}
+
+.text-one h2 {
+    font-weight: 400;
+}
+
+.vector-img {
+    left: 50px;
+}
+
+.btn-login {
+    padding: 8px 40px;
+    font-weight: 700;
+    border-radius: 35px;
+    font-size: 12pt;
+    color: #fff;
+    background-color: rgb(4, 121, 255);
+}
+
+.btn-login:focus,
+.btn-login:hover,
+.btn-login:active {
+    font-weight: 700;
+    background-color: rgb(16, 82, 158);
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-register {
+    border: 2px solid rgb(16, 82, 158);
+    padding: 8px 30px;
+    font-weight: 700;
+    border-radius: 35px;
+    font-size: 12pt;
+    color: rgb(16, 82, 158);
+}
+
+.btn-register:focus,
+.btn-register:hover,
+.btn-register:active {
+    border: 2px solid rgb(4, 121, 255);
+    font-weight: 700;
+    color: rgb(16, 82, 158);
+    cursor: pointer;
+}
+
+.btn-started {
+    padding: 10px 50px;
+    font-weight: 700;
+    border-radius: 35px;
+    font-size: 12pt;
+    color: #fff;
+    background-color: rgb(4, 121, 255);
+}
+
+.btn-started:focus,
+.btn-started:hover,
+.btn-started:active {
+    font-weight: 700;
+    background-color: rgb(16, 82, 158);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: rgb(4, 121, 255);
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
 }
 
 
