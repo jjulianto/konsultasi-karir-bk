@@ -13,7 +13,7 @@
             <div class="collapse navbar-collapse mt-2" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto nav nav-pills">
                     <li class="nav-item align-self-center">
-                        <a class="nav-link" href="#">Beranda</a>
+                        <a class="nav-link active" href="#">Beranda</a>
                     </li>
                     <li class="nav-item align-self-center">
                         <a class="nav-link" href="#">Visi & Misi</a>
@@ -21,8 +21,8 @@
                     <li class="nav-item align-self-center">
                         <a class="nav-link" href="#">Guru BK</a>
                     </li>
-                    <a href="#"><button class="btn btn-register ml-2 mb-1">Sign Up</button></a>
-                    <a href="#"><button class="btn btn-login ml-2">Sign in</button></a>
+                    <button class="btn btn-register ml-2 mb-1">Sign Up</button>
+                    <button class="btn btn-login ml-2 mb-1" data-toggle="modal" data-target="#loginModal">Sign in</button>
                 </ul>
             </div>
         </div>
@@ -53,5 +53,24 @@
 <footer>
     <p>Konsultasi Karir BK &copy; 2020, SMKN 1 Cimahi</p>
 </footer>
+
+<!-- Logout Modal -->
+<div class="modal modal-login fade" id="loginModal" tabindex="-1" aria-labelledby="loginModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h5 class="modal-title font-weight-bold" id="exampleModalLabel">Konsultasi Karir BK <br /> SMKN 1 Cimahi</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center py-3">
+                <p>Mohon pilih apakah anda adalah <br /> seorang guru atau siswa !</p>
+                <a href="/login/guru"><button type="button" class="btn btn-primary"><i class="fas fa-chalkboard-teacher"></i> Saya adalah Guru</button></a>
+                <a href="/login/siswa"><button type="button" class="btn btn-success"><i class="fas fa-user-graduate"></i> Saya adalah Siswa</button></a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?= $this->endSection(); ?>
