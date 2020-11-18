@@ -13,13 +13,13 @@
             <div class="collapse navbar-collapse mt-2" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto nav nav-pills">
                     <li class="nav-item align-self-center">
-                        <a class="nav-link active" href="#">Beranda</a>
+                        <a class="nav-link" href="#jumbotron">Beranda</a>
                     </li>
                     <li class="nav-item align-self-center">
-                        <a class="nav-link" href="#">Visi & Misi</a>
+                        <a class="nav-link" href="#visimisi">Visi & Misi</a>
                     </li>
                     <li class="nav-item align-self-center">
-                        <a class="nav-link" href="#">Guru BK</a>
+                        <a class="nav-link" href="#gurubk">Guru BK</a>
                     </li>
                     <button class="btn btn-register ml-2 mb-1">Sign Up</button>
                     <button class="btn btn-login ml-2 mb-1" data-toggle="modal" data-target="#loginModal">Sign in</button>
@@ -29,7 +29,62 @@
     </nav>
 </div>
 
-<div class="page page-1">
+<!-- Jumbotron -->
+<div class="jumbotron bg-white" id="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 jumbotent">
+                <h1 class="display-5 font-weight-bold">
+                    Konsultasi Karir BK<br>SMK Negeri 1 Cimahi
+                </h1>
+                <p class="lead">
+                    Konsultasi karir BK adalah pemberian bantuan penasehatan tentang karir kepada seorang siswa oleh guru yang memiliki pengetahuan, keterampilan, dan kualifikasi profesional yang memadai. Upaya agar siswa mendapatkan arahan dan bimbingan dalam penyelesaian karir yang diinginkan dan sesuai minat mereka.
+                </p>
+                <div class="d-flex flex-column flex-lg-row">
+                    <a class="btn btn-primary font-weight-bold mb-3 mb-lg-0" href="#visimisi" role="button">
+                        Telusuri
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2">
+                <img src="assets/images/vectors/consulting.jpg" alt="consulting-image" class="img-fluid" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section id="visimisi" class="mb-5 visimisi">
+    <div class="container-fluid visimisi bg-light pb-5">
+        <div class="container">
+            <h2 class="font-weight-bold text-center pt-5">Visi dan Misi</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+    </div>
+</section>
+
+<section id="gurubk" class="mb-5">
+    <h2 class="font-weight-bold text-center pt-5 pb-3">Daftar Guru BK</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <p class="text-center pl-3 pr-3"> <img src="assets/images/icons/user.png" alt=""><br>Chintya Giana </p>
+                <p class="text-center pl-3 pr-3"> <img src="assets/images/icons/user.png" alt=""><br>Chintya Giana </p>
+                <p class="text-center pl-3 pr-3"> <img src="assets/images/icons/user.png" alt=""><br>Chintya Giana </p>
+            </div><br>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <p class="text-center pl-3 pr-3"> <img src="assets/images/icons/user.png" alt=""><br>Chintya Giana </p>
+                <p class="text-center pl-3 pr-3"> <img src="assets/images/icons/user.png" alt=""><br>Chintya Giana </p>
+                <p class="text-center pl-3 pr-3"> <img src="assets/images/icons/user.png" alt=""><br>Chintya Giana </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- <div class="page page-1">
     <div class="container">
         <div class="row">
             <div class="col align-self-center text-one pb-5">
@@ -49,7 +104,9 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
+
+<!-- footer -->
 <footer>
     <p>Konsultasi Karir BK &copy; 2020, SMKN 1 Cimahi</p>
 </footer>
