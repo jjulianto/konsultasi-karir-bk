@@ -17,16 +17,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>/assets/css/main.css">
 
     <title><?= $title; ?></title>
 </head>
 
 <body>
 
-
+    <?= $this->include('templates/navbar'); ?>
     <!-- Content -->
-    <?= $this->renderSection('content'); ?>
+    <?= $this->renderSection('konten'); ?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

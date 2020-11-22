@@ -1,0 +1,232 @@
+/* FONT IMPORT */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
+
+:root {
+  font-size: 16px;
+  font-family: "Raleway";
+  --text-primary: #ececec;
+  --text-secondary: #0f2038;
+  --bg-primary: #557db8;
+  --bg-secondary: #3c64a0;
+  --transition-speed: 600ms;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  font-family: Raleway;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #557db8;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+
+/* =====================================================================
+========================== Dashboard ================================
+===================================================================== */
+
+/*========================== navbar =================== */
+
+.navbar {
+  position: fixed;
+  background-color: var(--bg-primary);
+  transition: width 600ms ease;
+  z-index: 4;
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-item {
+  width: 100%;
+}
+
+.nav-item:last-child {
+  margin-top: auto;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  filter: grayscale(100%) opacity(0.7);
+  transition: var(--transition-speed);
+}
+
+.nav-link:hover {
+  filter: grayscale(0%) opacity(1);
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  border-radius: 20px;
+}
+
+.link-text {
+  display: none;
+  margin-left: 1rem;
+}
+
+.nav-link i {
+  width: 2rem;
+  min-width: 2rem;
+  margin: 0 1.5rem;
+}
+
+.nav-link svg {
+  width: 2rem;
+  min-width: 2rem;
+  margin: 0 1.5rem;
+}
+
+.fa-primary {
+  color: #ff7eee;
+}
+
+.fa-secondary {
+  color: #df49a6;
+}
+
+.fa-primary,
+.fa-secondary {
+  transition: var(--transition-speed);
+}
+
+.logo {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: var(--text-secondary);
+  background: var(--bg-secondary);
+  font-size: 1.5rem;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.logo i {
+  transform: rotate(0deg);
+  transition: var(--transition-speed);
+}
+
+.logo-text {
+  display: inline;
+  position: absolute;
+  left: -999px;
+  transition: var(--transition-speed);
+}
+
+.navbar:hover .logo i {
+  transform: rotate(-180deg);
+  border-radius: 20px;
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    bottom: 0;
+    width: 100vw;
+    height: 5rem;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .nav-link {
+    justify-content: center;
+  }
+
+  main {
+    margin: 0;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 600px) {
+  .navbar {
+    top: 0;
+    width: 6.5rem;
+    height: 100vh;
+    border-radius: 0 20px 20px 0;
+  }
+
+  .navbar:hover {
+    width: 18rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .navbar:hover .link-text {
+    display: inline;
+  }
+
+  .navbar:hover .logo i {
+    margin-left: 17rem;
+  }
+  .navbar:hover .logo-text {
+    left: 0px;
+  }
+}
+
+/*========================== navbar konten =================== */
+.greeting {
+  width: 100%;
+  height: 35vh;
+  background: #7c9cd1;
+  border-radius: 0 0 20px 20px;
+  padding: 1rem;
+  color: white;
+}
+
+.greeting img {
+  width: 40%;
+}
+
+main {
+  margin-left: 7rem;
+  padding: 1rem;
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  .greeting {
+    padding-left: 2rem;
+    padding-top: 1rem;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 600px) {
+  .greeting .greet {
+    padding-left: 10rem;
+    padding-top: 4rem;
+  }
+
+  .greeting .prof {
+    padding-top: 1rem;
+  }
+}

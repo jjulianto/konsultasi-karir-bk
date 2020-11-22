@@ -1,7 +1,7 @@
 <?= $this->extend('templates/template'); ?>
 
 <?= $this->section('content'); ?>
-<div class="container">
+<div class="container lp">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
