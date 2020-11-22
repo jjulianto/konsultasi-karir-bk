@@ -21,8 +21,8 @@
                     <li class="nav-item align-self-center">
                         <a class="nav-link" href="#">Guru BK</a>
                     </li>
-                    <button class="btn btn-register ml-2 mb-1">Sign Up</button>
-                    <button class="btn btn-login ml-2 mb-1" data-toggle="modal" data-target="#loginModal">Sign in</button>
+                    <a href="/register"><button class="btn btn-register ml-2 mb-1">Sign Up</button></a>
+                    <a href="/login"><button class="btn btn-login ml-2 mb-1">Sign in</button></a>
                 </ul>
             </div>
         </div>
@@ -55,7 +55,7 @@
 </footer>
 
 <!-- Logout Modal -->
-<div class="modal modal-login fade" id="loginModal" tabindex="-1" aria-labelledby="loginModal" aria-hidden="true">
+<!-- <div class="modal modal-login fade" id="loginModal" tabindex="-1" aria-labelledby="loginModal" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header text-center">
@@ -71,6 +71,6 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <?= $this->endSection(); ?>

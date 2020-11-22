@@ -1,0 +1,11 @@
+CRITICAL - 2020-11-22 01:55:56 --> Undefined variable: title
+#0 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\app\Views\templates\register.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Sekolah\\Tuga...', 22, Array)
+#1 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\View\View.php(246): include('D:\\Sekolah\\Tuga...')
+#2 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\Common.php(1119): CodeIgniter\View\View->render('templates/regis...', Array, true)
+#3 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\app\Controllers\Register.php(12): view('templates/regis...')
+#4 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(918): App\Controllers\Register->index()
+#5 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('D:\\Sekolah\\Tuga...')
+#9 {main}

@@ -201,10 +201,20 @@ footer {
 
 .wrapper-form {
     width: 35%;
-    height: 350px;
+    height: 330px;
     background-color: #fff;
     margin: auto;
     margin-top: 120px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.wrapper-form-register {
+    width: 55%;
+    height: 450px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 70px;
     border-radius: 10px;
     position: relative;
 }
@@ -217,12 +227,38 @@ footer {
     display: flex;
 }
 
+.text-login {
+    margin-top: 60px;
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    color: rgb(4, 121, 255);
+}
+
 .icon {
     padding: 10px;
-    background: rgb(4, 121, 255);
-    color: white;
     min-width: 50px;
     text-align: center;
+    border: 0 solid black !important;
+    color: rgb(4, 121, 255);
+}
+
+input {
+    border-radius: 0;
+    border: 0 solid black !important;
+    width: 100%;
+    border: 1px solid #aaa;
+}
+
+.icon,
+input {
+    border-bottom: 2px solid #D1D1D1 !important;
+    border-radius: 0 !important;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0) !important;
+    border-bottom: 2px solid rgb(4, 121, 255) !important;
 }
 
 .circle-wrapper {
