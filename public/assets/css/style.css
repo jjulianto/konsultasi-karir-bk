@@ -1,202 +1,275 @@
+/* FONT IMPORT */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
+
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-
-/* FONT IMPORT */
-
-@font-face {
-    font-family: 'Poppins';
-    font-weight: 400;
-    src: local('Poppins Regular'), url('./../fonts/poppins-v13-latin-regular.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Poppins';
-    font-weight: 700;
-    src: local('Poppins Bold'), url('./../fonts/poppins-v13-latin-700.woff') format('woff');
+/* @font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  src: local("Poppins Regular"),
+    url("./../fonts/poppins-v13-latin-regular.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Quicksand';
-    font-weight: 400;
-    src: local('Quicksand Regular'), url('./../fonts/quicksand-v21-latin-regular.woff') format('woff');
+  font-family: "Poppins";
+  font-weight: 700;
+  src: local("Poppins Bold"),
+    url("./../fonts/poppins-v13-latin-700.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Quicksand';
-    font-weight: 700;
-    src: local('Quicksand Bold'), url('./../fonts/quicksand-v21-latin-700.woff') format('woff');
+  font-family: "Quicksand";
+  font-weight: 400;
+  src: local("Quicksand Regular"),
+    url("./../fonts/quicksand-v21-latin-regular.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Quicksand";
+  font-weight: 700;
+  src: local("Quicksand Bold"),
+    url("./../fonts/quicksand-v21-latin-700.woff") format("woff");
+} */
 
-/* Landing Page */
+/* ===================================================================
+======================= LANDING PAGE ==============================
+=================================================================== */
 
-.page {
-    width: 100%;
-    min-height: 100vh;
+/* navbar */
+.lp .page {
+  width: 100%;
+  min-height: 100vh;
 }
 
-.navbar {
-    padding: 20px 40px;
-    background-color: #fff;
+.lp .navbar {
+  padding: 20px 40px;
+  background-color: #fff;
 }
 
-.navbar .navbar-brand {
-    font-size: 30px;
-    color: rgb(16, 82, 158);
-    font-weight: 700;
+.lp .navbar .navbar-brand {
+  font-size: 30px;
+  color: rgb(16, 82, 158);
+  font-weight: 700;
 }
 
-.navbar-nav .nav-item .nav-link {
-    color: rgb(16, 82, 158);
-    font-weight: 700;
-    font-family: "Quicksand", sans-serif;
-    transition: all .3s;
-    background-color: #fff;
+.lp .navbar-nav .nav-item .nav-link {
+  color: rgb(16, 82, 158);
+  font-weight: 700;
+  transition: all 0.3s;
+  background-color: #fff;
 }
 
-.navbar-nav .nav-item .nav-link:hover {
-    background-color: rgb(16, 82, 158);
-    color: #fff;
+.lp .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(4, 121, 255);
 }
 
-.navbar-nav .nav-item .nav-link.active {
-    border-bottom: 2px solid rgb(16, 82, 158);
-    color: rgb(16, 82, 158);
+.lp .add-shadow {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+  height: 50px;
 }
 
-.navbar-nav .nav-item .nav-link.active:hover {
-    color: #fff;
+.lp .navbar-nav .nav-item .nav-link .active {
+  border-bottom: 2px solid rgb(16, 82, 158);
+  color: rgb(4, 121, 255);
 }
 
 .page-1 {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 
 .text-one {
-    color: rgb(16, 82, 158);
+  color: rgb(16, 82, 158);
 }
 
 .text-one h2 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .vector-img {
-    left: 50px;
+  left: 50px;
 }
 
 .btn-login {
-    padding: 8px 30px;
-    font-weight: 700;
-    border-radius: 35px;
-    font-size: 12pt;
-    color: #fff;
-    background-color: rgb(4, 121, 255);
+  padding: 8px 30px;
+  font-weight: 700;
+  border-radius: 35px;
+  font-size: 12pt;
+  color: #fff;
+  background-color: rgb(4, 121, 255);
 }
 
 .btn-login:focus,
 .btn-login:hover,
 .btn-login:active {
-    font-weight: 700;
-    background-color: rgb(16, 82, 158);
-    color: #fff;
-    cursor: pointer;
+  font-weight: 700;
+  background-color: rgb(16, 82, 158);
+  color: #fff;
+  cursor: pointer;
 }
 
 .btn-register {
-    border: 2px solid rgb(16, 82, 158);
-    padding: 8px 30px;
-    font-weight: 700;
-    border-radius: 35px;
-    font-size: 12pt;
-    color: rgb(16, 82, 158);
+  border: 2px solid rgb(16, 82, 158);
+  padding: 8px 30px;
+  font-weight: 700;
+  border-radius: 35px;
+  font-size: 12pt;
+  color: rgb(16, 82, 158);
 }
 
 .btn-register:focus,
 .btn-register:hover,
 .btn-register:active {
-    border: 2px solid rgb(4, 121, 255);
-    font-weight: 700;
-    color: rgb(16, 82, 158);
-    cursor: pointer;
+  border: 2px solid rgb(4, 121, 255);
+  font-weight: 700;
+  color: rgb(16, 82, 158);
+  cursor: pointer;
 }
 
 .btn-started {
-    padding: 10px 50px;
-    font-weight: 700;
-    border-radius: 35px;
-    font-size: 12pt;
-    color: #fff;
-    background-color: rgb(4, 121, 255);
+  padding: 10px 50px;
+  font-weight: 700;
+  border-radius: 35px;
+  font-size: 12pt;
+  color: #fff;
+  background-color: rgb(4, 121, 255);
 }
 
 .btn-started:focus,
 .btn-started:hover,
 .btn-started:active {
-    font-weight: 700;
-    background-color: rgb(16, 82, 158);
-    color: #fff;
-    cursor: pointer;
+  font-weight: 700;
+  background-color: rgb(16, 82, 158);
+  color: #fff;
+  cursor: pointer;
 }
 
+/* Jumbotron */
+.jumbotron .btn {
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.jumbotron .btn:hover {
+  background-color: ivory;
+  border-color: rgb(16, 82, 158);
+  color: rgb(16, 82, 158);
+}
+
+@media screen and (min-width: 992px) {
+  .jumbotron {
+    margin-bottom: 0;
+    height: calc(100vh - 57.69px);
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .jumbotron .jumbotent {
+    margin-top: 9%;
+  }
+
+  .jumbotron .btn {
+    padding: 2% 7% 2% 7%;
+  }
+  .jumbotron .jumbotent .lead {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .jumbotron h1 {
+    text-align: center;
+    font-size: 2.3rem;
+    margin-top: 2rem;
+  }
+
+  .jumbotron .lead {
+    text-align: center;
+  }
+}
+
+/* visi dan misi */
+.visimisi p::first-letter {
+  float: left;
+  font-weight: bold;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 992px) {
+  .visimisi {
+    max-height: 40vh;
+    max-width: 100%;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .visimisi {
+    max-height: 60vh;
+    max-width: 100%;
+    text-align: justify;
+  }
+}
+
+/* guru bk */
 
 /* Modal */
 
 .modal-login .modal-content {
-    border-radius: 20px;
+  border-radius: 20px;
 }
 
 .modal-header,
 .modal-footer {
-    display: inline-block !important;
+  display: inline-block !important;
 }
 
 .modal-header h5 {
-    color: rgb(16, 82, 158);
-    font-size: 15px;
+  color: rgb(16, 82, 158);
+  font-size: 15px;
 }
 
 .modal-header button {
-    position: absolute;
-    top: 17px;
-    right: 17px;
+  position: absolute;
+  top: 17px;
+  right: 17px;
 }
 
 .modal-body p {
-    color: gray;
+  color: gray;
 }
 
 .modal-body button {
-    width: 200px;
+  width: 200px;
 }
-
 
 /* Footer */
 
 footer {
-    background-color: rgb(4, 121, 255);
-    padding: 15px;
-    color: #fff;
-    text-align: center;
-    font-weight: 700;
+  background-color: rgb(4, 121, 255);
+  padding-top: 15px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  height: 50px;
 }
-
 
 /* Login Page */
 
 .overlay-white {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #eee;
 }
 
 .wrapper-form {
@@ -220,11 +293,11 @@ footer {
 }
 
 .form {
-    padding: 0px 40px;
+  padding: 0px 40px;
 }
 
 .input-icon {
-    display: flex;
+  display: flex;
 }
 
 .text-login {
@@ -262,19 +335,19 @@ input:focus {
 }
 
 .circle-wrapper {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 2;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
 .circle-wrapper .circle-image {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 100%;
-    margin: auto;
-    margin-top: -50px;
-    text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  margin: auto;
+  margin-top: -50px;
+  text-align: center;
 }
