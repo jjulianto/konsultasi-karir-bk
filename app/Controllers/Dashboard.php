@@ -20,6 +20,13 @@ class Dashboard extends BaseController
         return view('dashboard/konseling', $data);
     }
 
+    public function notifikasi()
+    {
+        $data = [
+            'title' => 'Notifikasi'
+        ];
+        return view('dashboard/notifikasi', $data);
+    }
     //--------------------------------------------------------------------
 
 }
