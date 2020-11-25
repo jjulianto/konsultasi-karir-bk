@@ -8,21 +8,21 @@
         </li>
 
         <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="/dashboard/dashboard" class="nav-link">
                 <i class="fas fa-home fa-2x" role="img"></i>
                 <span class="link-text">Beranda</span>
             </a>
         </li>
 
         <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="/dashboard/konseling" class="nav-link">
                 <i class="fas fa-comments fa-2x" role="img"></i>
                 <span class="link-text">Konsultasi</span>
             </a>
         </li>
 
         <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="/dashboard/notifikasi" class="nav-link">
                 <i class="fas fa-bell fa-2x" role="img"></i>
                 <span class="link-text">Notifikasi</span>
             </a>

@@ -1,0 +1,53 @@
+CRITICAL - 2020-11-24 07:51:37 --> Undefined variable: base_url
+#0 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\app\Views\dashboard\dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/dashb...', Array, true)
+#3 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\app\Controllers\Dashboard.php(12): view('dashboard/dashb...', Array)
+#4 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(918): App\Controllers\Dashboard->dashboard()
+#5 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-24 07:51:53 --> Undefined variable: base_url
+#0 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\app\Views\dashboard\dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/dashb...', Array, true)
+#3 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\app\Controllers\Dashboard.php(12): view('dashboard/dashb...', Array)
+#4 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(918): App\Controllers\Dashboard->dashboard()
+#5 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-24 07:59:52 --> Undefined variable: base_url
+#0 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\app\Views\dashboard\dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/dashb...', Array, true)
+#3 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\app\Controllers\Dashboard.php(12): view('dashboard/dashb...', Array)
+#4 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(918): App\Controllers\Dashboard->dashboard()
+#5 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-24 08:09:11 --> syntax error, unexpected ';', expecting variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/dashb...', Array, true)
+#1 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\app\Controllers\Dashboard.php(12): view('dashboard/dashb...', Array)
+#2 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(918): App\Controllers\Dashboard->dashboard()
+#3 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-11-24 08:09:19 --> Undefined variable: base_url
+#0 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\app\Views\dashboard\dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/dashb...', Array, true)
+#3 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\app\Controllers\Dashboard.php(12): view('dashboard/dashb...', Array)
+#4 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(918): App\Controllers\Dashboard->dashboard()
+#5 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
