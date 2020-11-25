@@ -99,7 +99,7 @@
                 </p>
                 <a href="#"><button class="btn btn-started">Telusuri</button></a>
             </div>
-            <div class="col vector-img">
+            <div class="col vector-img order-1 order-lg-2">
                 <img width="600" src="assets/images/vectors/consulting.jpg" alt="Consulting" />
             </div>
         </div>
