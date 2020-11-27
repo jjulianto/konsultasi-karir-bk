@@ -29,7 +29,7 @@
         </li>
 
         <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="/dashboard/profil" class="nav-link">
                 <i class="fas fa-user fa-2x" role="img"></i>
                 <span class="link-text">Profil</span>
             </a>

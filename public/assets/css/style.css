@@ -1,14 +1,37 @@
 /* FONT IMPORT */
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
 body {
   padding: 0;
   margin: 0;
   font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(4, 121, 255);
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+  transition: 0.6s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
 }
 
 /* @font-face {
@@ -49,15 +72,21 @@ html {
   min-height: 100vh;
 }
 
-.lp .navbar {
-  padding: 20px 40px;
+.navbar {
   background-color: #fff;
+  transition: 0.2s;
+  z-index: 5;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 7px 7px 9px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 7px 7px 9px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 16px 0px rgba(50, 50, 50, 0.137);
 }
 
 .lp .navbar .navbar-brand {
   font-size: 30px;
   color: rgb(16, 82, 158);
   font-weight: 700;
+  transition: 0.6s;
 }
 
 .lp .navbar-nav .nav-item .nav-link {
@@ -65,15 +94,18 @@ html {
   font-weight: 700;
   transition: all 0.3s;
   background-color: #fff;
+  transition: 0.6s;
 }
 
 .lp .navbar-nav .nav-item .nav-link:hover {
   color: rgb(4, 121, 255);
 }
 
-.lp .add-shadow {
+.add-shadow {
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
-  height: 50px;
+  -webkit-box-shadow: 7px 7px 9px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 7px 7px 9px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 16px 0px rgba(50, 50, 50, 0.137);
 }
 
 .lp .navbar-nav .nav-item .nav-link .active {
@@ -103,6 +135,7 @@ html {
   border-radius: 35px;
   font-size: 12pt;
   color: #fff;
+  transition: 0.6s;
   background-color: rgb(4, 121, 255);
 }
 
@@ -119,6 +152,7 @@ html {
   border: 2px solid rgb(16, 82, 158);
   padding: 8px 30px;
   font-weight: 700;
+  transition: 0.6s;
   border-radius: 35px;
   font-size: 12pt;
   color: rgb(16, 82, 158);
@@ -152,10 +186,12 @@ html {
 }
 
 /* Jumbotron */
+
 .jumbotron .btn {
   border-radius: 30px;
   transition: 0.3s;
 }
+
 .jumbotron .btn:hover {
   background-color: ivory;
   border-color: rgb(16, 82, 158);
@@ -163,6 +199,9 @@ html {
 }
 
 @media screen and (min-width: 992px) {
+  .lp .navbar {
+    padding: 20px 40px;
+  }
   .jumbotron {
     margin-bottom: 0;
     height: calc(100vh - 57.69px);
@@ -173,7 +212,6 @@ html {
   .jumbotron .jumbotent {
     margin-top: 9%;
   }
-
   .jumbotron .btn {
     padding: 2% 7% 2% 7%;
   }
@@ -183,18 +221,32 @@ html {
 }
 
 @media screen and (max-width: 575.98px) {
+  .lp .navbar {
+    padding: 6px 20px;
+  }
   .jumbotron h1 {
     text-align: center;
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     margin-top: 2rem;
   }
-
   .jumbotron .lead {
     text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .jumbotron img {
+    margin-top: 50px;
+    margin-bottom: -30px;
+  }
+  .btn-login,
+  .btn-register {
+    width: 100%;
+    margin-left: 0 !important;
   }
 }
 
 /* visi dan misi */
+
 .visimisi p::first-letter {
   float: left;
   font-weight: bold;
@@ -216,13 +268,37 @@ html {
     max-width: 100%;
     text-align: justify;
   }
+
+  .visimisi p {
+    font-size: 0.8rem;
+  }
+
+  .visimisi h2 {
+    margin-top: -20px;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }
 }
 
 /* guru bk */
+.ava img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
 
+@media screen and (max-width: 575.98px) {
+  .ava img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+}
 /* Modal */
 
-.modal-login .modal-content {
+/* .modal-login .modal-content {
   border-radius: 20px;
 }
 
@@ -248,7 +324,7 @@ html {
 
 .modal-body button {
   width: 200px;
-}
+} */
 
 /* Footer */
 
@@ -261,7 +337,7 @@ footer {
   height: 50px;
 }
 
-/* Login Page */
+/* Login and Register Page */
 
 .overlay-white {
   position: absolute;
@@ -273,23 +349,23 @@ footer {
 }
 
 .wrapper-form {
-    width: 35%;
-    height: 330px;
-    background-color: #fff;
-    margin: auto;
-    margin-top: 120px;
-    border-radius: 10px;
-    position: relative;
+  width: 35%;
+  height: 330px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 120px;
+  border-radius: 10px;
+  position: relative;
 }
 
 .wrapper-form-register {
-    width: 55%;
-    height: 450px;
-    background-color: #fff;
-    margin: auto;
-    margin-top: 70px;
-    border-radius: 10px;
-    position: relative;
+  width: 55%;
+  height: 450px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 70px;
+  border-radius: 10px;
+  position: relative;
 }
 
 .form {
@@ -301,37 +377,37 @@ footer {
 }
 
 .text-login {
-    margin-top: 60px;
-    font-size: 20px;
-    font-family: "Quicksand", sans-serif;
-    font-weight: bold;
-    color: rgb(4, 121, 255);
+  margin-top: 60px;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: rgb(4, 121, 255);
 }
 
 .icon {
-    padding: 10px;
-    min-width: 50px;
-    text-align: center;
-    border: 0 solid black !important;
-    color: rgb(4, 121, 255);
+  padding: 10px;
+  min-width: 50px;
+  text-align: center;
+  border: 0 solid black !important;
+  color: rgb(4, 121, 255);
 }
 
 input {
-    border-radius: 0;
-    border: 0 solid black !important;
-    width: 100%;
-    border: 1px solid #aaa;
+  border-radius: 0;
+  border: 0 solid black !important;
+  width: 100%;
+  border: 1px solid #aaa;
 }
 
 .icon,
 input {
-    border-bottom: 2px solid #D1D1D1 !important;
-    border-radius: 0 !important;
+  border-bottom: 2px solid #d1d1d1 !important;
+  border-radius: 0 !important;
 }
 
 input:focus {
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0) !important;
-    border-bottom: 2px solid rgb(4, 121, 255) !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0) !important;
+  border-bottom: 2px solid rgb(4, 121, 255) !important;
 }
 
 .circle-wrapper {
@@ -350,4 +426,13 @@ input:focus {
   margin: auto;
   margin-top: -50px;
   text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  .wrapper-form {
+    width: 100%;
+  }
+  .wrapper-form-register {
+    width: 100%;
+  }
 }

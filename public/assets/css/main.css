@@ -334,16 +334,53 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 
+.kns .float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 60px;
+  right: 40px;
+  background-color: #7c9cd1;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+}
+
+.kns .my-float {
+  margin-top: 22px;
+}
+
 /* Large screens */
 @media (min-width: 1200px) {
-  .container {
+  .kns-konten .container {
     max-width: 82rem;
   }
 }
+/* smol skrin */
+@media only screen and (max-width: 600px) {
+  .kns-konten h4 {
+    font-size: 1rem;
+  }
 
+  .kns-konten p {
+    font-size: 0.7rem;
+  }
+
+  .kns .float {
+    bottom: 100px;
+  }
+}
 /* =====================================================================
 ========================== Notifikasi ================================
 ===================================================================== */
 .notif p {
   font-size: 0.9rem;
+}
+
+/* =====================================================================
+========================== Profil ================================
+===================================================================== */
+.profil img {
+  width: 150px;
 }
