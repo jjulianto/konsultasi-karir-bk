@@ -10,7 +10,7 @@ body {
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 /* custom scrollbar */
@@ -62,14 +62,17 @@ html {
     url("./../fonts/quicksand-v21-latin-700.woff") format("woff");
 } */
 
+
 /* ===================================================================
 ======================= LANDING PAGE ==============================
 =================================================================== */
 
+
 /* navbar */
+
 .lp .page {
-  width: 100%;
-  min-height: 100vh;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .navbar {
@@ -95,10 +98,11 @@ html {
   transition: all 0.3s;
   background-color: #fff;
   transition: 0.6s;
+
 }
 
 .lp .navbar-nav .nav-item .nav-link:hover {
-  color: rgb(4, 121, 255);
+    color: rgb(4, 121, 255);
 }
 
 .add-shadow {
@@ -109,24 +113,24 @@ html {
 }
 
 .lp .navbar-nav .nav-item .nav-link .active {
-  border-bottom: 2px solid rgb(16, 82, 158);
-  color: rgb(4, 121, 255);
+    border-bottom: 2px solid rgb(16, 82, 158);
+    color: rgb(4, 121, 255);
 }
 
 .page-1 {
-  padding-top: 60px;
+    padding-top: 60px;
 }
 
 .text-one {
-  color: rgb(16, 82, 158);
+    color: rgb(16, 82, 158);
 }
 
 .text-one h2 {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 .vector-img {
-  left: 50px;
+    left: 50px;
 }
 
 .btn-login {
@@ -142,10 +146,10 @@ html {
 .btn-login:focus,
 .btn-login:hover,
 .btn-login:active {
-  font-weight: 700;
-  background-color: rgb(16, 82, 158);
-  color: #fff;
-  cursor: pointer;
+    font-weight: 700;
+    background-color: rgb(16, 82, 158);
+    color: #fff;
+    cursor: pointer;
 }
 
 .btn-register {
@@ -161,41 +165,42 @@ html {
 .btn-register:focus,
 .btn-register:hover,
 .btn-register:active {
-  border: 2px solid rgb(4, 121, 255);
-  font-weight: 700;
-  color: rgb(16, 82, 158);
-  cursor: pointer;
+    border: 2px solid rgb(4, 121, 255);
+    font-weight: 700;
+    color: rgb(16, 82, 158);
+    cursor: pointer;
 }
 
 .btn-started {
-  padding: 10px 50px;
-  font-weight: 700;
-  border-radius: 35px;
-  font-size: 12pt;
-  color: #fff;
-  background-color: rgb(4, 121, 255);
+    padding: 10px 50px;
+    font-weight: 700;
+    border-radius: 35px;
+    font-size: 12pt;
+    color: #fff;
+    background-color: rgb(4, 121, 255);
 }
 
 .btn-started:focus,
 .btn-started:hover,
 .btn-started:active {
-  font-weight: 700;
-  background-color: rgb(16, 82, 158);
-  color: #fff;
-  cursor: pointer;
+    font-weight: 700;
+    background-color: rgb(16, 82, 158);
+    color: #fff;
+    cursor: pointer;
 }
+
 
 /* Jumbotron */
 
 .jumbotron .btn {
-  border-radius: 30px;
-  transition: 0.3s;
+    border-radius: 30px;
+    transition: 0.3s;
 }
 
 .jumbotron .btn:hover {
-  background-color: ivory;
-  border-color: rgb(16, 82, 158);
-  color: rgb(16, 82, 158);
+    background-color: ivory;
+    border-color: rgb(16, 82, 158);
+    color: rgb(16, 82, 158);
 }
 
 @media screen and (min-width: 992px) {
@@ -248,18 +253,18 @@ html {
 /* visi dan misi */
 
 .visimisi p::first-letter {
-  float: left;
-  font-weight: bold;
-  font-size: 60px;
-  text-transform: uppercase;
+    float: left;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: uppercase;
 }
 
 @media screen and (min-width: 992px) {
-  .visimisi {
-    max-height: 40vh;
-    max-width: 100%;
-    text-align: justify;
-  }
+    .visimisi {
+        max-height: 40vh;
+        max-width: 100%;
+        text-align: justify;
+    }
 }
 
 @media screen and (max-width: 575.98px) {
@@ -282,6 +287,7 @@ html {
   }
 }
 
+
 /* guru bk */
 .ava img {
   width: 200px;
@@ -296,7 +302,6 @@ html {
     object-fit: cover;
   }
 }
-/* Modal */
 
 /* .modal-login .modal-content {
   border-radius: 20px;
@@ -329,23 +334,23 @@ html {
 /* Footer */
 
 footer {
-  background-color: rgb(4, 121, 255);
-  padding-top: 15px;
-  color: #fff;
-  text-align: center;
-  font-weight: 700;
-  height: 50px;
+    background-color: rgb(4, 121, 255);
+    padding-top: 15px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    height: 50px;
 }
 
 /* Login and Register Page */
 
 .overlay-white {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
 }
 
 .wrapper-form {
@@ -369,11 +374,11 @@ footer {
 }
 
 .form {
-  padding: 0px 40px;
+    padding: 0px 40px;
 }
 
 .input-icon {
-  display: flex;
+    display: flex;
 }
 
 .text-login {
@@ -411,21 +416,21 @@ input:focus {
 }
 
 .circle-wrapper {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 2;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 .circle-wrapper .circle-image {
-  width: 100px;
-  height: 100px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 100%;
-  margin: auto;
-  margin-top: -50px;
-  text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    margin: auto;
+    margin-top: -50px;
+    text-align: center;
 }
 
 @media screen and (max-width: 992px) {

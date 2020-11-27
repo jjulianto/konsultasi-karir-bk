@@ -39,6 +39,7 @@
     <script>
         AOS.init();
     </script>
+    <?= $this->renderSection('more-js'); ?>
 </body>
 
 </html>
