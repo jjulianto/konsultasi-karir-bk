@@ -27,6 +27,14 @@ class Dashboard extends BaseController
         ];
         return view('dashboard/notifikasi', $data);
     }
+
+    public function profil()
+    {
+        $data = [
+            'title' => 'Profil Pengguna'
+        ];
+        return view('dashboard/profil', $data);
+    }
     //--------------------------------------------------------------------
 
 }

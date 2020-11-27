@@ -3,11 +3,11 @@
 
 <?= $this->section('konten'); ?>
 
-<main>
+<main class="kns">
     <div class="alert alert-info text-success text-center mr-2 ml-2" role="alert">
         Total konseling kamu : 0
     </div>
-    <p class="mt-5 ml-2" id="riwayat">Riwayat Konsultasi :</p>
+    <p class="mt-4 ml-2" id="riwayat">Riwayat Konsultasi :</p>
 
     <div class="container">
         <div class="row mb-2">
@@ -25,5 +25,9 @@
             </div>
         </div>
     </div>
+
+    <a href="../konsultasi-karir-bk/app/Views/landing-page/index.php" target="_blank" class="float">
+        <i class="fa fa-plus my-float"></i>
+    </a>
 </main>
 <?= $this->endSection(); ?>
