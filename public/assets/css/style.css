@@ -1,16 +1,16 @@
 /* FONT IMPORT */
-
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
 body {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Quicksand", "Raleway", sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* custom scrollbar */
@@ -34,45 +34,15 @@ html {
   background-color: #a8bbbf;
 }
 
-/* @font-face {
-  font-family: "Poppins";
-  font-weight: 400;
-  src: local("Poppins Regular"),
-    url("./../fonts/poppins-v13-latin-regular.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Poppins";
-  font-weight: 700;
-  src: local("Poppins Bold"),
-    url("./../fonts/poppins-v13-latin-700.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Quicksand";
-  font-weight: 400;
-  src: local("Quicksand Regular"),
-    url("./../fonts/quicksand-v21-latin-regular.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Quicksand";
-  font-weight: 700;
-  src: local("Quicksand Bold"),
-    url("./../fonts/quicksand-v21-latin-700.woff") format("woff");
-} */
-
-
 /* ===================================================================
 ======================= LANDING PAGE ==============================
 =================================================================== */
 
-
 /* navbar */
 
 .lp .page {
-    width: 100%;
-    min-height: 100vh;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .navbar {
@@ -98,11 +68,10 @@ html {
   transition: all 0.3s;
   background-color: #fff;
   transition: 0.6s;
-
 }
 
 .lp .navbar-nav .nav-item .nav-link:hover {
-    color: rgb(4, 121, 255);
+  color: rgb(4, 121, 255);
 }
 
 .add-shadow {
@@ -112,25 +81,29 @@ html {
   box-shadow: 7px 7px 16px 0px rgba(50, 50, 50, 0.137);
 }
 
+.navbar-toggler {
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
 .lp .navbar-nav .nav-item .nav-link .active {
-    border-bottom: 2px solid rgb(16, 82, 158);
-    color: rgb(4, 121, 255);
+  border-bottom: 2px solid rgb(16, 82, 158);
+  color: rgb(4, 121, 255);
 }
 
 .page-1 {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 
 .text-one {
-    color: rgb(16, 82, 158);
+  color: rgb(16, 82, 158);
 }
 
 .text-one h2 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .vector-img {
-    left: 50px;
+  left: 50px;
 }
 
 .btn-login {
@@ -146,10 +119,10 @@ html {
 .btn-login:focus,
 .btn-login:hover,
 .btn-login:active {
-    font-weight: 700;
-    background-color: rgb(16, 82, 158);
-    color: #fff;
-    cursor: pointer;
+  font-weight: 700;
+  background-color: rgb(16, 82, 158);
+  color: #fff;
+  cursor: pointer;
 }
 
 .btn-register {
@@ -165,47 +138,45 @@ html {
 .btn-register:focus,
 .btn-register:hover,
 .btn-register:active {
-    border: 2px solid rgb(4, 121, 255);
-    font-weight: 700;
-    color: rgb(16, 82, 158);
-    cursor: pointer;
+  border: 2px solid rgb(4, 121, 255);
+  font-weight: 700;
+  color: rgb(16, 82, 158);
+  cursor: pointer;
 }
 
 .btn-started {
-    padding: 10px 50px;
-    font-weight: 700;
-    border-radius: 35px;
-    font-size: 12pt;
-    color: #fff;
-    background-color: rgb(4, 121, 255);
+  padding: 10px 50px;
+  font-weight: 700;
+  border-radius: 35px;
+  font-size: 12pt;
+  color: #fff;
+  background-color: rgb(4, 121, 255);
 }
 
 .btn-started:focus,
 .btn-started:hover,
 .btn-started:active {
-    font-weight: 700;
-    background-color: rgb(16, 82, 158);
-    color: #fff;
-    cursor: pointer;
+  font-weight: 700;
+  background-color: rgb(16, 82, 158);
+  color: #fff;
+  cursor: pointer;
 }
-
 
 /* Jumbotron */
 
 .jumbotron .btn {
-    border-radius: 30px;
-    transition: 0.3s;
+  border-radius: 30px;
+  transition: 0.6s;
 }
-
 .jumbotron .btn:hover {
-    background-color: ivory;
-    border-color: rgb(16, 82, 158);
-    color: rgb(16, 82, 158);
+  background-color: ivory;
+  border-color: rgb(16, 82, 158);
+  color: rgb(16, 82, 158);
 }
 
 @media screen and (min-width: 992px) {
   .lp .navbar {
-    padding: 20px 40px;
+    padding: 10px 40px;
   }
   .jumbotron {
     margin-bottom: 0;
@@ -215,13 +186,22 @@ html {
     margin-top: 5%;
   }
   .jumbotron .jumbotent {
-    margin-top: 9%;
+    margin-top: 8%;
   }
   .jumbotron .btn {
     padding: 2% 7% 2% 7%;
   }
   .jumbotron .jumbotent .lead {
     font-size: 1em;
+  }
+  .jumbotron .btn-telusuri {
+    margin-left: 30px;
+    transition: 0.6s;
+  }
+  .jumbotron h1 {
+    padding: 30px 0 5px 0;
+    font-size: 2.5rem;
+    margin-left: 30px;
   }
 }
 
@@ -234,11 +214,6 @@ html {
     font-size: 1.8rem;
     margin-top: 2rem;
   }
-  .jumbotron .lead {
-    text-align: center;
-    font-size: 0.8rem;
-  }
-
   .jumbotron img {
     margin-top: 50px;
     margin-bottom: -30px;
@@ -248,32 +223,62 @@ html {
     width: 100%;
     margin-left: 0 !important;
   }
+  .btn-telusuri {
+    display: none;
+    padding-left: 20px;
+  }
+}
+
+/* Tentang kami */
+@media screen and (min-width: 992px) {
+  #tentang-kami .lead {
+    font-size: 1.3rem;
+  }
+  #tentang-kami img {
+    width: 130px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  #tentang-kami .lead {
+    font-size: 0.9rem;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  #tentang-kami img {
+    display: none;
+  }
 }
 
 /* visi dan misi */
 
-.visimisi p::first-letter {
-    float: left;
-    font-weight: bold;
-    font-size: 60px;
-    text-transform: uppercase;
+.visimisi {
+  max-height: 40vh;
+  max-width: 100%;
+}
+
+.visimisi .kartu .btn {
+  height: 130px;
+  width: 130px;
+  transition: 0.6s;
+  padding-top: 20px;
+  vertical-align: middle;
 }
 
 @media screen and (min-width: 992px) {
-    .visimisi {
-        max-height: 40vh;
-        max-width: 100%;
-        text-align: justify;
-    }
+  .visimisi {
+    max-height: 40vh;
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 575.98px) {
   .visimisi {
-    max-height: 60vh;
+    max-height: 40vh;
     max-width: 100%;
-    text-align: justify;
   }
-
+  /* 
   .visimisi p {
     font-size: 0.8rem;
   }
@@ -284,9 +289,8 @@ html {
 
   footer p {
     font-size: 0.8rem;
-  }
+  } */
 }
-
 
 /* guru bk */
 .ava img {
@@ -334,23 +338,28 @@ html {
 /* Footer */
 
 footer {
-    background-color: rgb(4, 121, 255);
-    padding-top: 15px;
-    color: #fff;
-    text-align: center;
-    font-weight: 700;
-    height: 50px;
+  background-color: rgb(4, 121, 255);
+  padding-top: 15px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  height: 50px;
+}
+@media screen and (max-width: 575.98px) {
+  footer {
+    font-size: 0.8rem;
+  }
 }
 
 /* Login and Register Page */
 
 .overlay-white {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #eee;
 }
 
 .wrapper-form {
@@ -374,11 +383,11 @@ footer {
 }
 
 .form {
-    padding: 0px 40px;
+  padding: 0px 40px;
 }
 
 .input-icon {
-    display: flex;
+  display: flex;
 }
 
 .text-login {
@@ -416,21 +425,21 @@ input:focus {
 }
 
 .circle-wrapper {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 2;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
 .circle-wrapper .circle-image {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 100%;
-    margin: auto;
-    margin-top: -50px;
-    text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  margin: auto;
+  margin-top: -50px;
+  text-align: center;
 }
 
 @media screen and (max-width: 992px) {

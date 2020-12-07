@@ -35,6 +35,13 @@ class Dashboard extends BaseController
         ];
         return view('dashboard/profil', $data);
     }
+    public function konsultasi()
+    {
+        $data = [
+            'title' => 'Konsultasi Baru'
+        ];
+        return view('dashboard/konsultasi', $data);
+    }
     //--------------------------------------------------------------------
 
 }

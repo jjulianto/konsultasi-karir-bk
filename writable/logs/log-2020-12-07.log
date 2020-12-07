@@ -1,0 +1,68 @@
+CRITICAL - 2020-12-07 10:30:37 --> Undefined variable: target
+#0 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\app\Controllers\Dashboard.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(918): App\Controllers\Dashboard->konsultasi()
+#2 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-07 10:30:39 --> Undefined variable: target
+#0 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\app\Controllers\Dashboard.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(918): App\Controllers\Dashboard->konsultasi()
+#2 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-07 10:30:39 --> Undefined variable: target
+#0 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\app\Controllers\Dashboard.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(918): App\Controllers\Dashboard->konsultasi()
+#2 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-07 10:33:45 --> Undefined variable: taget
+#0 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\app\Views\dashboard\konseling.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/konse...', Array, true)
+#3 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\app\Controllers\Dashboard.php(20): view('dashboard/konse...', Array)
+#4 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(918): App\Controllers\Dashboard->konseling()
+#5 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-07 10:33:58 --> Undefined variable: target
+#0 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\app\Views\dashboard\konseling.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/konse...', Array, true)
+#3 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\app\Controllers\Dashboard.php(20): view('dashboard/konse...', Array)
+#4 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(918): App\Controllers\Dashboard->konseling()
+#5 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-07 10:35:11 --> Undefined variable: target
+#0 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\app\Views\dashboard\konseling.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/konse...', Array, true)
+#3 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\app\Controllers\Dashboard.php(20): view('dashboard/konse...', Array)
+#4 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(918): App\Controllers\Dashboard->konseling()
+#5 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-07 10:35:15 --> Undefined variable: target
+#0 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\app\Views\dashboard\konseling.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Common.php(1119): CodeIgniter\View\View->render('dashboard/konse...', Array, true)
+#3 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\app\Controllers\Dashboard.php(20): view('dashboard/konse...', Array)
+#4 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(918): App\Controllers\Dashboard->konseling()
+#5 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ProjectWork\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
