@@ -19,14 +19,10 @@
                         </div>
                         <div class="row">
                             <div class="input-icon col-6">
-                                <i class="far fa-address-card icon"></i>
+                                <i class="fas fa-address-card icon"></i>
                                 <input type="number" class="form-control" name="nis" autocomplete="off" required placeholder="NIS">
                             </div>
                             <div class="input-icon col-6">
-                                <i class="fas fa-address-book icon"></i>
-                                <input type="number" class="form-control" name="nisn" autocomplete="off" required placeholder="NISN">
-                            </div>
-                            <div class="input-icon mt-2 col-12">
                                 <i class="fa fa-user-check icon"></i>
                                 <input type="text" class="form-control" name="name" autocomplete="off" required placeholder="Nama Lengkap">
                             </div>
@@ -99,12 +95,12 @@
     $('#role').on('change', function() {
         //  alert( this.value ); // or $(this).val()
         if (this.value == "Siswa") {
-            document.getElementById('form-register').style.height = "540px";
+            document.getElementById('form-register').style.height = "510px";
             $('#jurusan').show();
             $('#kelas').show();
             $('#rombel').show();
         } else {
-            document.getElementById('form-register').style.height = "450px";
+            document.getElementById('form-register').style.height = "410px";
             $('#jurusan').hide();
             $('#kelas').hide();
             $('#rombel').hide();
