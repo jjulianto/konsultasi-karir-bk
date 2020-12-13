@@ -438,6 +438,7 @@ input {
 input:focus {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0) !important;
     border-bottom: 2px solid rgb(4, 121, 255) !important;
+    transition: 0.4;
 }
 
 .circle-wrapper {
