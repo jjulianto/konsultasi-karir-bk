@@ -5,16 +5,14 @@
 
 <div class="container-fluid greeting">
     <div class="row">
-        <div class="col-11">
+        <div class="col-10">
             <div class="greet">
                 <h1>Selamat Pagi, Jotaro</h1>
                 <p>Mista444@gmail.com</p>
             </div>
         </div>
-        <div class="col-1">
-            <div class="prof">
-                <img class="rounded-circle" alt="100x100" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg" data-holder-rendered="true">
-            </div>
+        <div class="col-2">
+            <img class="rounded-circle" alt="100x100" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg" data-holder-rendered="true">
         </div>
     </div>
 </div>
