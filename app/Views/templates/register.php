@@ -20,35 +20,35 @@
                         <div class="row">
                             <div class="input-icon col-6">
                                 <i class="fas fa-address-card icon"></i>
-                                <input type="number" class="form-control" name="nis" autocomplete="off" required placeholder="NIS">
+                                <input type="number" class="form-control" name="nis" autocomplete="off" required placeholder="NIS/NIP">
                             </div>
                             <div class="input-icon col-6">
-                                <i class="fa fa-user-check icon"></i>
+                                <i class="fa fa-user icon"></i>
                                 <input type="text" class="form-control" name="name" autocomplete="off" required placeholder="Nama Lengkap">
                             </div>
                             <div class="input-icon mt-3 col-12">
-                                <select name="role" class="custom-select" id="role">
+                                <select name="role" class="form-control" id="role">
                                     <option>Status</option>
                                     <option value="Guru">Guru</option>
-                                    <option value="Siswa"">Siswa</option>
-                                    </select>
-                                </div>
-                                <div class=" input-icon mt-3 col-6" style="display:none;" id="jurusan">
-                                        <select name="jurusan" class="custom-select">
-                                            <option>Jurusan</option>
-                                            <option value="TEI">TEI</option>
-                                            <option value="TOI">TOI</option>
-                                            <option value="IOP">IOP</option>
-                                            <option value="RPL">RPL</option>
-                                            <option value="SIJA">SIJA</option>
-                                            <option value="TPTU">TPTU</option>
-                                            <option value="PFPT">PFPT</option>
-                                            <option value="TEDK">TEDK</option>
-                                            <option value="MEKA">MEKA</option>
-                                        </select>
+                                    <option value="Siswa">Siswa</option>
+                                </select>
+                            </div>
+                            <div class="input-icon mt-3 col-6" style="display:none;" id="jurusan">
+                                <select name="jurusan" class="form-control">
+                                    <option>Jurusan</option>
+                                    <option value="TEI">TEI</option>
+                                    <option value="TOI">TOI</option>
+                                    <option value="IOP">IOP</option>
+                                    <option value="RPL">RPL</option>
+                                    <option value="SIJA">SIJA</option>
+                                    <option value="TPTU">TPTU</option>
+                                    <option value="PFPT">PFPT</option>
+                                    <option value="TEDK">TEDK</option>
+                                    <option value="MEKA">MEKA</option>
+                                </select>
                             </div>
                             <div class="input-icon mt-3 col-6" style="display:none;" id="kelas">
-                                <select name="kelas" class="custom-select">
+                                <select name="kelas" class="form-control">
                                     <option>Kelas</option>
                                     <option value="X">X</option>
                                     <option value="XI">XI</option>
@@ -57,7 +57,7 @@
                                 </select>
                             </div>
                             <div class="input-icon mt-3 col-12" style="display:none;" id="rombel">
-                                <select name="rombel" class="custom-select">
+                                <select name="rombel" class="form-control">
                                     <option>Rombel</option>
                                     <option value="A">A</option>
                                     <option value="B">B</option>
@@ -65,8 +65,8 @@
                                 </select>
                             </div>
                             <div class="input-icon mt-2 col-6">
-                                <i class="fas fa-user icon"></i>
-                                <input type="text" class="form-control" name="username" autocomplete="off" required placeholder="Username">
+                                <i class="fas fa-envelope icon"></i>
+                                <input type="text" class="form-control" name="email" autocomplete="off" required placeholder="Email">
                             </div>
                             <div class="input-icon mt-2 col-6">
                                 <i class="fa fa-lock icon"></i>

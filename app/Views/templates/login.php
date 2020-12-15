@@ -19,7 +19,7 @@
                         </div>
                         <div class="input-icon mt-2">
                             <i class="fa fa-user icon"></i>
-                            <input type="text" class="form-control" name="username" autocomplete="off" required placeholder="Username">
+                            <input type="text" class="form-control" name="email" autocomplete="off" required placeholder="Email">
                         </div>
                     </div>
                     <div class="form-group">

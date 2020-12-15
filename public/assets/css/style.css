@@ -3,292 +3,286 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
 body {
-    padding: 0;
-    margin: 0;
-    font-family: "Quicksand", "Raleway", sans-serif;
-    overflow-x: hidden;
-    overflow-y: scroll;
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", "Raleway", sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-
 
 /* custom scrollbar */
 
 ::-webkit-scrollbar {
-    width: 20px;
+  width: 20px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(4, 121, 255);
-    border-radius: 20px;
-    border: 6px solid transparent;
-    background-clip: content-box;
-    transition: 0.6s;
+  background-color: rgb(4, 121, 255);
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+  transition: 0.6s;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #a8bbbf;
+  background-color: #a8bbbf;
 }
-
 
 /* ===================================================================
 ======================= LANDING PAGE ==============================
 =================================================================== */
 
-
 /* navbar */
 
 .lp .page {
-    width: 100%;
-    min-height: 100vh;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .navbar {
-    background-color: #fff;
-    transition: 0.2s;
-    z-index: 5;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: 7px 7px 9px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow: 7px 7px 9px 0px rgba(50, 50, 50, 0.75);
-    box-shadow: 7px 7px 16px 0px rgba(50, 50, 50, 0.137);
+  background-color: #fff;
+  transition: 0.2s;
+  z-index: 5;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 7px 7px 9px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 7px 7px 9px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 16px 0px rgba(50, 50, 50, 0.137);
 }
 
 .lp .navbar .navbar-brand {
-    font-size: 30px;
-    color: rgb(16, 82, 158);
-    font-weight: 700;
-    transition: 0.6s;
+  font-size: 30px;
+  color: rgb(16, 82, 158);
+  font-weight: 700;
+  transition: 0.6s;
 }
 
 .lp .navbar-nav .nav-item .nav-link {
-    color: rgb(16, 82, 158);
-    font-weight: 700;
-    transition: all 0.3s;
-    background-color: #fff;
-    transition: 0.6s;
+  color: rgb(16, 82, 158);
+  font-weight: 700;
+  transition: all 0.3s;
+  background-color: #fff;
+  transition: 0.6s;
 }
 
 .lp .navbar-nav .nav-item .nav-link:hover {
-    color: rgb(4, 121, 255);
+  color: rgb(4, 121, 255);
 }
 
 .add-shadow {
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: 7px 7px 9px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow: 7px 7px 9px 0px rgba(50, 50, 50, 0.75);
-    box-shadow: 7px 7px 16px 0px rgba(50, 50, 50, 0.137);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 7px 7px 9px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 7px 7px 9px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 16px 0px rgba(50, 50, 50, 0.137);
 }
 
 .navbar-toggler {
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .lp .navbar-nav .nav-item .nav-link .active {
-    border-bottom: 2px solid rgb(16, 82, 158);
-    color: rgb(4, 121, 255);
+  border-bottom: 2px solid rgb(16, 82, 158);
+  color: rgb(4, 121, 255);
 }
 
 .page-1 {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 
 .text-one {
-    color: rgb(16, 82, 158);
+  color: rgb(16, 82, 158);
 }
 
 .text-one h2 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .vector-img {
-    left: 50px;
+  left: 50px;
 }
 
 .btn-login {
-    padding: 8px 30px;
-    font-weight: 700;
-    border-radius: 35px;
-    font-size: 12pt;
-    color: #fff;
-    transition: 0.6s;
-    background-color: rgb(4, 121, 255);
+  padding: 8px 30px;
+  font-weight: 700;
+  border-radius: 35px;
+  font-size: 12pt;
+  color: #fff;
+  transition: 0.6s;
+  background-color: rgb(4, 121, 255);
 }
 
 .btn-login:focus,
 .btn-login:hover,
 .btn-login:active {
-    font-weight: 700;
-    background-color: rgb(16, 82, 158);
-    color: #fff;
-    cursor: pointer;
+  font-weight: 700;
+  background-color: rgb(16, 82, 158);
+  color: #fff;
+  cursor: pointer;
 }
 
 .btn-register {
-    border: 2px solid rgb(16, 82, 158);
-    padding: 8px 30px;
-    font-weight: 700;
-    transition: 0.6s;
-    border-radius: 35px;
-    font-size: 12pt;
-    color: rgb(16, 82, 158);
+  border: 2px solid rgb(16, 82, 158);
+  padding: 8px 30px;
+  font-weight: 700;
+  transition: 0.6s;
+  border-radius: 35px;
+  font-size: 12pt;
+  color: rgb(16, 82, 158);
 }
 
 .btn-register:focus,
 .btn-register:hover,
 .btn-register:active {
-    border: 2px solid rgb(4, 121, 255);
-    font-weight: 700;
-    color: rgb(16, 82, 158);
-    cursor: pointer;
+  border: 2px solid rgb(4, 121, 255);
+  font-weight: 700;
+  color: rgb(16, 82, 158);
+  cursor: pointer;
 }
 
 .btn-started {
-    padding: 10px 50px;
-    font-weight: 700;
-    border-radius: 35px;
-    font-size: 12pt;
-    color: #fff;
-    background-color: rgb(4, 121, 255);
+  padding: 10px 50px;
+  font-weight: 700;
+  border-radius: 35px;
+  font-size: 12pt;
+  color: #fff;
+  background-color: rgb(4, 121, 255);
 }
 
 .btn-started:focus,
 .btn-started:hover,
 .btn-started:active {
-    font-weight: 700;
-    background-color: rgb(16, 82, 158);
-    color: #fff;
-    cursor: pointer;
+  font-weight: 700;
+  background-color: rgb(16, 82, 158);
+  color: #fff;
+  cursor: pointer;
 }
-
 
 /* Jumbotron */
 
 .jumbotron .btn {
-    border-radius: 30px;
-    transition: 0.6s;
+  border-radius: 30px;
+  transition: 0.6s;
 }
 
 .jumbotron .btn:hover {
-    background-color: ivory;
-    border-color: rgb(16, 82, 158);
-    color: rgb(16, 82, 158);
+  background-color: ivory;
+  border-color: rgb(16, 82, 158);
+  color: rgb(16, 82, 158);
 }
 
 @media screen and (min-width: 992px) {
-    .lp .navbar {
-        padding: 10px 40px;
-    }
-    .jumbotron {
-        margin-bottom: 0;
-        height: calc(100vh - 57.69px);
-        display: flex;
-        align-items: center;
-        margin-top: 5%;
-    }
-    .jumbotron .jumbotent {
-        margin-top: 8%;
-    }
-    .jumbotron .btn {
-        padding: 2% 7% 2% 7%;
-    }
-    .jumbotron .jumbotent .lead {
-        font-size: 1em;
-    }
-    .jumbotron .btn-telusuri {
-        margin-left: 30px;
-        transition: 0.6s;
-    }
-    .jumbotron h1 {
-        padding: 30px 0 5px 0;
-        font-size: 2.5rem;
-        margin-left: 30px;
-    }
+  .lp .navbar {
+    padding: 10px 40px;
+  }
+  .jumbotron {
+    margin-bottom: 0;
+    height: calc(100vh - 57.69px);
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .jumbotron .jumbotent {
+    margin-top: 8%;
+  }
+  .jumbotron .btn {
+    padding: 2% 7% 2% 7%;
+  }
+  .jumbotron .jumbotent .lead {
+    font-size: 1em;
+  }
+  .jumbotron .btn-telusuri {
+    margin-left: 30px;
+    transition: 0.6s;
+  }
+  .jumbotron h1 {
+    padding: 30px 0 5px 0;
+    font-size: 2.5rem;
+    margin-left: 30px;
+  }
 }
 
 @media screen and (max-width: 575.98px) {
-    .lp .navbar {
-        padding: 6px 20px;
-    }
-    .jumbotron h1 {
-        text-align: center;
-        font-size: 1.8rem;
-        margin-top: 2rem;
-    }
-    .jumbotron img {
-        margin-top: 50px;
-        margin-bottom: -30px;
-    }
-    .btn-login,
-    .btn-register {
-        width: 100%;
-        margin-left: 0 !important;
-    }
-    .btn-telusuri {
-        display: none;
-        padding-left: 20px;
-    }
+  .lp .navbar {
+    padding: 6px 20px;
+  }
+  .jumbotron h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
+  .jumbotron img {
+    margin-top: 50px;
+    margin-bottom: -30px;
+  }
+  .btn-login,
+  .btn-register {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+  .btn-telusuri {
+    display: none;
+    padding-left: 20px;
+  }
 }
-
 
 /* Tentang kami */
 
 @media screen and (min-width: 992px) {
-    #tentang-kami .lead {
-        font-size: 1.3rem;
-    }
-    #tentang-kami img {
-        width: 130px;
-        padding-bottom: 50px;
-    }
+  #tentang-kami .lead {
+    font-size: 1.3rem;
+  }
+  #tentang-kami img {
+    width: 130px;
+    padding-bottom: 50px;
+  }
 }
 
 @media screen and (max-width: 575.98px) {
-    #tentang-kami .lead {
-        font-size: 0.9rem;
-        padding-bottom: 50px;
-        text-align: center;
-    }
-    #tentang-kami img {
-        display: none;
-    }
+  #tentang-kami .lead {
+    font-size: 0.9rem;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  #tentang-kami img {
+    display: none;
+  }
 }
-
 
 /* visi dan misi */
 
 .visimisi {
-    max-height: 40vh;
-    max-width: 100%;
+  max-height: 40vh;
+  max-width: 100%;
 }
 
 .visimisi .kartu .btn {
-    height: 130px;
-    width: 130px;
-    transition: 0.6s;
-    padding-top: 20px;
-    vertical-align: middle;
+  height: 130px;
+  width: 130px;
+  transition: 0.6s;
+  padding-top: 20px;
+  vertical-align: middle;
 }
 
 @media screen and (min-width: 992px) {
-    .visimisi {
-        max-height: 40vh;
-        max-width: 100%;
-    }
+  .visimisi {
+    max-height: 40vh;
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 575.98px) {
-    .visimisi {
-        max-height: 40vh;
-        max-width: 100%;
-    }
-    /* 
+  .visimisi {
+    max-height: 40vh;
+    max-width: 100%;
+  }
+  /* 
   .visimisi p {
     font-size: 0.8rem;
   }
@@ -302,23 +296,21 @@ html {
   } */
 }
 
-
 /* guru bk */
 
 .ava img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 575.98px) {
-    .ava img {
-        width: 120px;
-        height: 120px;
-        object-fit: cover;
-    }
+  .ava img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
 }
-
 
 /* .modal-login .modal-content {
   border-radius: 20px;
@@ -348,122 +340,131 @@ html {
   width: 200px;
 } */
 
-
 /* Footer */
 
 footer {
-    background-color: rgb(4, 121, 255);
-    padding-top: 15px;
-    color: #fff;
-    text-align: center;
-    font-weight: 700;
-    height: 50px;
+  background-color: rgb(4, 121, 255);
+  padding-top: 15px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  height: 50px;
 }
 
 @media screen and (max-width: 575.98px) {
-    footer {
-        font-size: 0.8rem;
-    }
+  footer {
+    font-size: 0.8rem;
+  }
 }
-
 
 /* Login and Register Page */
 
 .overlay-white {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #eee;
 }
 
 .wrapper-form {
-    width: 35%;
-    height: 330px;
-    background-color: #fff;
-    margin: auto;
-    margin-top: 120px;
-    border-radius: 10px;
-    position: relative;
+  width: 35%;
+  height: 330px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 120px;
+  border-radius: 10px;
+  position: relative;
 }
 
 .wrapper-form-register {
-    width: 55%;
-    height: 410px;
-    background-color: #fff;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 10px;
-    position: relative;
+  width: 55%;
+  height: 410px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  position: relative;
 }
 
 .form {
-    padding: 0px 40px;
+  padding: 0px 40px;
 }
 
 .input-icon {
-    display: flex;
+  display: flex;
 }
 
 .text-login {
-    margin-top: 60px;
-    font-size: 20px;
-    font-family: "Quicksand", sans-serif;
-    font-weight: bold;
-    color: rgb(4, 121, 255);
+  margin-top: 60px;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: rgb(4, 121, 255);
 }
 
 .icon {
-    padding: 10px;
-    min-width: 50px;
-    text-align: center;
-    border: 0 solid black !important;
-    color: rgb(4, 121, 255);
+  padding: 10px;
+  min-width: 50px;
+  text-align: center;
+  border: 0 solid black !important;
+  color: rgb(4, 121, 255);
 }
 
 input {
-    border-radius: 0;
-    border: 0 solid black !important;
-    width: 100%;
-    border: 1px solid #aaa;
+  border-radius: 0;
+  border: 0 solid black !important;
+  width: 100%;
+  border: 1px solid #aaa;
 }
 
 .icon,
 input {
-    border-bottom: 2px solid #d1d1d1 !important;
-    border-radius: 0 !important;
+  border-bottom: 2px solid #d1d1d1 !important;
+  border-radius: 0 !important;
 }
 
 input:focus {
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0) !important;
-    border-bottom: 2px solid rgb(4, 121, 255) !important;
-    transition: 0.4;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0) !important;
+  border-bottom: 2px solid rgb(4, 121, 255) !important;
+  transition: 0.4;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }
 
 .circle-wrapper {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 2;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
 .circle-wrapper .circle-image {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 100%;
-    margin: auto;
-    margin-top: -50px;
-    text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  margin: auto;
+  margin-top: -50px;
+  text-align: center;
 }
 
 @media screen and (max-width: 992px) {
-    .wrapper-form {
-        width: 100%;
-    }
-    .wrapper-form-register {
-        width: 100%;
-    }
+  .wrapper-form {
+    width: 100%;
+  }
+  .wrapper-form-register {
+    width: 100%;
+  }
 }

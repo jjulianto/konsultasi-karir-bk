@@ -38,27 +38,32 @@
                     <div class="form-group col">
                         <label for="exampleFormControlSelect1">Jurusan</label>
                         <select class="form-control" id="exampleFormControlSelect1">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
+                            <option value="TEI">TEI</option>
+                            <option value="TOI">TOI</option>
+                            <option value="IOP">IOP</option>
+                            <option value="RPL">RPL</option>
+                            <option value="SIJA">SIJA</option>
+                            <option value="TPTU">TPTU</option>
+                            <option value="PFPT">PFPT</option>
+                            <option value="TEDK">TEDK</option>
+                            <option value="MEKA">MEKA</option>
                         </select>
                     </div>
                     <div class="form-group col">
                         <label for="exampleFormControlSelect1">Kelas</label>
                         <select class="form-control" id="exampleFormControlSelect2">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
+                            <option value="X">X</option>
+                            <option value="XI">XI</option>
+                            <option value="XII">XII</option>
+                            <option value="XIII">XIII</option>
                         </select>
                     </div>
                     <div class="form-group col">
                         <label for="exampleFormControlSelect1">Rombel</label>
                         <select class="form-control" id="exampleFormControlSelect1">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="C">C</option>
                         </select>
                     </div>
                 </div>
