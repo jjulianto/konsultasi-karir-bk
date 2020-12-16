@@ -30,10 +30,13 @@
                     </div>
                     <button class="btn btn-lg btn-primary btn-block mt-4 mb-3" type="submit">Login</button>
                     <div class="text-center">
-                        <small class="text-muted ">Belum punya akun ? <a href="/register">Daftar</a></small>
+                        <small>Belum punya akun ? <a href="/register" class="text-decoration-none font-weight-bold">Daftar</a></small>
                     </div>
                 </form>
             </div>
+        </div>
+        <div class="text-center mt-2">
+            <small><a href="/" class="text-decoration-none text-muted"><i class="fa fa-chevron-left mr-2"></i>Kembali ke homepage</a></small>
         </div>
     </div>
 </div>

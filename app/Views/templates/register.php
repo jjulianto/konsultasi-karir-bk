@@ -2,7 +2,7 @@
 
 <?= $this->section('content'); ?>
 <!-- Content -->
-<div class="overlay-white">
+<div class="overlay-white" id="overlay">
     <div class="container">
         <div class="wrapper-form-register" id="form-register">
             <div class="circle-wrapper">
@@ -80,10 +80,13 @@
                     </div>
                     <button class="btn btn-lg btn-primary btn-block mt-3 mb-2" type="submit">Daftar</button>
                     <div class="text-center">
-                        <small class="text-muted ">Sudah punya akun ? <a href="/login">Login</a></small>
+                        <small>Sudah punya akun ? <a href="/login" class="text-decoration-none font-weight-bold">Login</a></small>
                     </div>
                 </form>
             </div>
+        </div>
+        <div class="text-center mt-2 pb-5">
+            <small><a href="/" class="text-decoration-none text-muted"><i class="fa fa-chevron-left mr-2"></i>Kembali ke homepage</a></small>
         </div>
     </div>
 </div>
@@ -96,11 +99,13 @@
         //  alert( this.value ); // or $(this).val()
         if (this.value == "Siswa") {
             document.getElementById('form-register').style.height = "510px";
+            document.getElementById('overlay').style.height = "105vh";
             $('#jurusan').show();
             $('#kelas').show();
             $('#rombel').show();
         } else {
             document.getElementById('form-register').style.height = "410px";
+            document.getElementById('overlay').style.height = "100vh";
             $('#jurusan').hide();
             $('#kelas').hide();
             $('#rombel').hide();
