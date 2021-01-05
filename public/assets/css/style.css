@@ -312,7 +312,7 @@ html {
   }
 }
 
-/* .modal-login .modal-content {
+.modal-login .modal-content {
   border-radius: 20px;
 }
 
@@ -338,7 +338,7 @@ html {
 
 .modal-body button {
   width: 200px;
-} */
+}
 
 /* Footer */
 
@@ -368,9 +368,18 @@ footer {
   background-color: #eee;
 }
 
+.overlay-white-register {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 107vh;
+  background-color: #eee;
+}
+
 .wrapper-form {
   width: 35%;
-  height: 330px;
+  height: 350px;
   background-color: #fff;
   margin: auto;
   margin-top: 120px;
@@ -380,7 +389,7 @@ footer {
 
 .wrapper-form-register {
   width: 55%;
-  height: 410px;
+  height: 530px;
   background-color: #fff;
   margin: auto;
   margin-top: 100px;
@@ -394,6 +403,14 @@ footer {
 
 .input-icon {
   display: flex;
+}
+
+.field-icon {
+  float: right;
+  margin-left: -19px;
+  margin-top: 10px;
+  position: relative;
+  z-index: 2;
 }
 
 .text-login {
