@@ -2,9 +2,9 @@
 
 <?= $this->section('content'); ?>
 <!-- Content -->
-<div class="overlay-white-register" <?= $this->renderSection('overlay'); ?>>
+<div class=<?= $this->renderSection('overlay'); ?>>
     <div class="container">
-        <div class="wrapper-form-register" <?= $this->renderSection('wrapper'); ?>>
+        <div class=<?= $this->renderSection('wrapper'); ?>>
             <div class="circle-wrapper">
                 <div class="circle-image">
                     <img src="<?= base_url(); ?>/assets/images/icons/user.png" width="100">

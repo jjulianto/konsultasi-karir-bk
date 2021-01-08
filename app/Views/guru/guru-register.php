@@ -1,11 +1,11 @@
 <?= $this->extend('templates/register'); ?>
 
 <?= $this->section('overlay'); ?>
-style="height: 100vh;"
+"overlay-white-register" style="height: 100vh;"
 <?= $this->endSection(); ?>
 
 <?= $this->section('wrapper'); ?>
-style="height: 440px;"
+"wrapper-form-register" style="height: 440px;"
 <?= $this->endSection(); ?>
 
 <?= $this->section('title'); ?>
@@ -24,7 +24,7 @@ style="height: 440px;"
 <?= $this->section('name'); ?>
 <div class="input-icon col-6 mt-2">
     <i class="fa fa-user icon"></i>
-    <input type="text" class="form-control" name="name" placeholder="Nama Lengkap">
+    <input type="text" class="form-control" name="name" placeholder="Nama">
 </div>
 <?= $this->endSection(); ?>
 
