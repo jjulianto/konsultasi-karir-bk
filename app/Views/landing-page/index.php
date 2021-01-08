@@ -164,8 +164,8 @@
             </div>
             <div class="modal-body text-center py-3">
                 <p>Mohon pilih apakah anda adalah <br /> seorang guru atau siswa !</p>
-                <a href="/login"><button type="button" class="btn btn-primary"><i class="fas fa-chalkboard-teacher"></i> Saya adalah Guru</button></a>
-                <a href="/login"><button type="button" class="btn btn-success"><i class="fas fa-user-graduate"></i> Saya adalah Siswa</button></a>
+                <a href="/teacher-login"><button type="button" class="btn btn-primary"><i class="fas fa-chalkboard-teacher"></i> Saya adalah Guru</button></a>
+                <a href="/student-login"><button type="button" class="btn btn-success"><i class="fas fa-user-graduate"></i> Saya adalah Siswa</button></a>
             </div>
         </div>
     </div>
@@ -183,8 +183,8 @@
             </div>
             <div class="modal-body text-center py-3">
                 <p>Mohon pilih apakah anda adalah <br /> seorang guru atau siswa !</p>
-                <a href="/register"><button type="button" class="btn btn-primary"><i class="fas fa-chalkboard-teacher"></i> Saya adalah Guru</button></a>
-                <a href="/register"><button type="button" class="btn btn-success"><i class="fas fa-user-graduate"></i> Saya adalah Siswa</button></a>
+                <a href="/teacher-register"><button type="button" class="btn btn-primary"><i class="fas fa-chalkboard-teacher"></i> Saya adalah Guru</button></a>
+                <a href="/student-register"><button type="button" class="btn btn-success"><i class="fas fa-user-graduate"></i> Saya adalah Siswa</button></a>
             </div>
         </div>
     </div>

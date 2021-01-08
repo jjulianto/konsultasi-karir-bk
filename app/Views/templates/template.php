@@ -71,7 +71,6 @@
             }
         });
     </script>
-    <?= $this->renderSection('more-js'); ?>
 </body>
 
 </html>

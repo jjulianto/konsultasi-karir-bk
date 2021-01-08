@@ -13,9 +13,7 @@
             </div>
             <div class="form">
                 <form action="#" method="post">
-                    <div class="text-center">
-                        <label class="text-login text-uppercase">Login Form</label>
-                    </div>
+                    <?= $this->renderSection('title'); ?>
                     <div class="input-icon mt-2">
                         <i class="fa fa-user icon"></i>
                         <input type="text" class="form-control" name="email" autocomplete="off" required placeholder="Email">
@@ -34,7 +32,10 @@
                     </div>
                     <button class="btn btn-lg btn-primary btn-block mt-3 mb-2" type="submit">Login</button>
                     <div class="text-center">
-                        <small>Belum punya akun ? <a href="/register" class="text-decoration-none font-weight-bold">Daftar</a></small>
+                        <?= $this->renderSection('register'); ?>
+                    </div>
+                    <div class="text-center mt-1">
+                        <?= $this->renderSection('login'); ?>
                     </div>
                 </form>
             </div>

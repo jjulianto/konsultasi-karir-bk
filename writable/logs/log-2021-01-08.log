@@ -1,0 +1,22 @@
+CRITICAL - 2021-01-08 00:23:22 --> View themes, no current section.
+#0 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\app\Views\siswa\siswa-register.php(33): CodeIgniter\View\View->endSection()
+#1 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\View\View.php(246): include('D:\\Sekolah\\Tuga...')
+#2 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\Common.php(1119): CodeIgniter\View\View->render('siswa/siswa-reg...', Array, true)
+#3 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\app\Controllers\Siswareglog.php(12): view('siswa/siswa-reg...', Array)
+#4 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(918): App\Controllers\Siswareglog->index()
+#5 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswareglog))
+#6 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('D:\\Sekolah\\Tuga...')
+#9 {main}
+CRITICAL - 2021-01-08 00:23:31 --> View themes, no current section.
+#0 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\app\Views\siswa\siswa-register.php(33): CodeIgniter\View\View->endSection()
+#1 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\View\View.php(246): include('D:\\Sekolah\\Tuga...')
+#2 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\Common.php(1119): CodeIgniter\View\View->render('siswa/siswa-reg...', Array, true)
+#3 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\app\Controllers\Siswareglog.php(12): view('siswa/siswa-reg...', Array)
+#4 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(918): App\Controllers\Siswareglog->index()
+#5 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswareglog))
+#6 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\Commands\Server\rewrite.php(34): require_once('D:\\Sekolah\\Tuga...')
+#9 {main}
