@@ -1,0 +1,14 @@
+CRITICAL - 2021-01-15 02:21:49 --> Argument 1 passed to CodeIgniter\Database\Forge::createTable() must be of the type string, null given, called in D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\app\Database\Migrations\2021-01-15-080347_admin.php on line 36
+#0 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\app\Database\Migrations\2021-01-15-080347_admin.php(36): CodeIgniter\Database\Forge->createTable(NULL)
+#1 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\Database\MigrationRunner.php(1060): App\Database\Migrations\Admin->up()
+#2 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\Database\MigrationRunner.php(223): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#3 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\Commands\Database\Migrate.php(128): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#4 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CLI\Commands.php(100): CodeIgniter\Commands\Database\Migrate->run(Array)
+#5 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CLI\CommandRunner.php(107): CodeIgniter\CLI\Commands->run('migrate', Array)
+#6 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CLI\CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index(Array)
+#7 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#8 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#9 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#11 D:\Sekolah\Tugas\Produktif\Project Work\Project\konsultasi-karir-bk\spark(57): CodeIgniter\CLI\Console->run()
+#12 {main}

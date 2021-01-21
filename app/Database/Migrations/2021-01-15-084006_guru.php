@@ -4,27 +4,35 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class Login extends Migration
+class Guru extends Migration
 {
 	public function up()
 	{
 		$this->forge->addField([
-			'id'          => [
+			'nip'          => [
 				'type'           => 'INT',
-				'constraint'     => 11,
+				'constraint'     => 20,
 				'unsigned'       => true,
 				'auto_increment' => true,
 			],
-			'username' => [
+			'nama' => [
 				'type'           => 'VARCHAR',
 				'constraint'     => '255',
 			],
-			'password' => [
+			'jenis_kelamin' => [
+				'type'           => 'ENUM',
+				'constraint'     => array('L', 'P'),
+			],
+			'alamat'       => [
 				'type'           => 'VARCHAR',
 				'constraint'     => '255',
 			],
-			'role' => [
+			'gambar'       => [
 				'type'           => 'VARCHAR',
+				'constraint'     => '255',
+			],
+			'no_telp' => [
+				'type'           => 'INT',
 				'constraint'     => '20',
 			],
 			'created_at' => [
@@ -36,12 +44,14 @@ class Login extends Migration
 				'null'			 => true,
 			],
 		]);
-		$this->forge->addKey('id', true);
-		$this->forge->createTable('login');
+		$this->forge->addKey('nip', true);
+		$this->forge->createTable('guru');
 	}
+
+	//--------------------------------------------------------------------
 
 	public function down()
 	{
-		$this->forge->dropTable('login');
+		$this->forge->dropTable('guru');
 	}
 }
